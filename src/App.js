@@ -1,9 +1,11 @@
-import './App.css';
+import React from "react";
+import Home from "./components/Home";
+import "./App.css";
 
 function App() {
   return (
-    <div>
-      Hello Book Finder 
+    <div className="app">
+      <Home />
     </div>
   );
 }

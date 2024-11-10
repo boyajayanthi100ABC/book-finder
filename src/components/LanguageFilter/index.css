@@ -1,0 +1,18 @@
+.language-filter {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.language-filter-label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.language-filter-select {
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}

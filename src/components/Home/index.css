@@ -1,0 +1,41 @@
+.app-content {
+  padding: 0 20px 20px;
+  width: 100%;
+}
+
+.search-controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filters-container {
+  display: flex;
+  align-items: center;
+}
+
+.books-container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 260px);
+  width: 100%;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.align-center {
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .app-content {
+    padding: 0 0 20px 0;
+  }
+  .search-controls {
+    display: flex;
+    flex-direction: column;
+  }
+  .filters-container {
+    justify-content: space-between;
+  }
+}
